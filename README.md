@@ -44,7 +44,7 @@ All cache policies inherit from cache in "cache.hpp"
 
 - LRU (least-recently used)
 - GDSF (greedy dual size-frequency)
-- WTFLU (window tiny-lfu)
+- WTLFU (window tiny-lfu)
 - LHD (least hit-density)
 
 ## References

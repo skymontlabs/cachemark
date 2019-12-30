@@ -42,27 +42,15 @@ Request traces must be given in a space-separated format with two
 ## Available caching policies
 All cache policies inherit from cache in "cache.hpp"
 
-#### Static caching methods
-Traditional "dummy" methods that don't change based upon new data.
-
 - LRU (least-recently used)
 - GDSF (greedy dual size-frequency)
-
-#### Dynamic caching methods
-Adaptive methods that attempt to learn certain distributions, etc.
-
-- QSF (quadratic size-frequency eviction)
+- WTFLU (window tiny-lfu)
 - LHD (least hit-density)
-- AdaptSize (dynamic exp-lru)
 
 ## References
 
 The following works were used
 
-    AdaptSize: Orchestrating the Hot Object Memory Cache in a CDN
-    Daniel S. Berger, Ramesh K. Sitaraman, Mor Harchol-Balter
-    USENIX NSDI, March 2017.
-    
     LHD: Improving Cache Hit Rate by Maximizing Hit Density
     Nathan Beckmann, Haoxian Chen, Asaf Cidon
     USENIX NSDI, April 2018.

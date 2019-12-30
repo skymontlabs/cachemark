@@ -6,16 +6,15 @@ Most of these are based upon other implementations, while some have just been cr
 
 ## Roadmap
 
-v.1.1
+v.1.1 (February 2020)
 
 - multiple classes of objects in the trace generator and cache class
 - changing request sizes for same id, corresponds to changed content in practice
 - trace parsers for actual HTTP requests
 
-v.1.2
+v.1.2 (March/April 2020)
 
-- deep reinforcement learning policy
-- deep q-learning policy
+- machine learning based algorithms
 
 ## Compile
 
@@ -42,10 +41,11 @@ Request traces must be given in a space-separated format with two
 ## Available caching policies
 All cache policies inherit from cache in "cache.hpp"
 
-- LRU (least-recently used)
-- GDSF (greedy dual size-frequency)
-- WTLFU (window tiny-lfu)
-- LHD (least hit-density)
+- lru.hpp (least-recently used)
+- gdsf.hpp (greedy dual size-frequency)
+- wtflu.hpp (window tiny-lfu)
+- hyp.hpp (hyperbolic)
+- lhd.hpp (least hit-density)
 
 ## References
 

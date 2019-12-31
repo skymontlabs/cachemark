@@ -50,6 +50,10 @@ All cache policies inherit from cache in "cache.hpp"
 
 The following works were used
 
+    Hyperbolic Caching: Flexible Caching for Web Applications
+    Aaron Blankstein, Siddhartha Sen, Michael J. Freedman
+    USENIX ATC, July 2017.
+    
     LHD: Improving Cache Hit Rate by Maximizing Hit Density
     Nathan Beckmann, Haoxian Chen, Asaf Cidon
     USENIX NSDI, April 2018.
